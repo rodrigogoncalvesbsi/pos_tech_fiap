@@ -32,9 +32,7 @@ def opcao_invalida():
 def exibir_subtitulo(texto):
     os.system("cls")
     print(texto)
-    print()
-
-    
+    print() 
 
 def cadastrar_restaurante():
     exibir_subtitulo("Cadastro de novos restaurantes.")
