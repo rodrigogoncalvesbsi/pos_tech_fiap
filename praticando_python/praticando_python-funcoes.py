@@ -103,3 +103,35 @@ lista = input('Digite os números separados por espaço: ').split()
 lista_convertida = converter_valores(lista)
 pares = list(filter(lambda x: x % 2 == 0, lista_convertida))
 print("Números pares:", pares)
+
+# 10 - Clara está gerenciando o estoque de sua loja e recebeu duas listas separadas: uma contendo os nomes dos 
+# produtos e outras com seus respectivos preços. Para facilitar a organização, ela precisa combinar essas listas 
+# de forma que cada produto seja associado ao seu preço.
+# Crie um programa que junte as listas e exiba o resultado no formato produto: preço
+
+
+# 11 - joana está participando de um processo seletivo para uma vaga de desenvolvedora e recebeu um desafio técnico de 
+# criar uma calculadora para somar, subtrair, multiplicar e dividir dois números.
+# Sua tarefa é criar um programa usando funções lambda que receba dois números e um operador matemático escolhido 
+# pelo usuário (+, -, * ou /) e exiba o resultado correspondente.
+
+
+# 12 - Miguel está desenvolvendo um sistema de cupons de desconto e precisa de uma forma para aplicar diferentes 
+# taxas de desconto sobre os valores das compras.
+# Diante deste problema, crie uma closure que gere uma função capaz de calcular o preço final com um 
+# desconto fixo definido pelo usuário. 
+    # Exemplo de entrada:
+        # Digite a porcentagem de desconto: 10 
+        # Digite o valor da compra: 200 
+
+
+# 13 - Paulo está desenvolvendo um programa para calcular valores acumulados em um sistema financeiro. 
+# Ele precisa somar os todos os números inteiros de 1 até n, onde n é um valor escolhido pelo usuário.
+# Ajude Paulo criando uma função recursiva que receba um número n e retorne a soma de todos os números inteiros de 1 até N.
+    # Exemplo de entrada:
+        # Digite um número: 5 
+    # Saída esperada:
+    #   A soma de 1 a 5 é: 15 
+
+
+
